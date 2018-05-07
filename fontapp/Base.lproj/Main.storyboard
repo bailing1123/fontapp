@@ -89,6 +89,10 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="IwL-gS-loG" id="Yup-zj-nf4"/>
+                                    <outlet property="photoImageView" destination="hDs-Vw-uIk" id="m2Z-dI-IeV"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

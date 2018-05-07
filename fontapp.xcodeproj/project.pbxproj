@@ -15,6 +15,8 @@
 		BFD8E7D2209B65E5001E8873 /* fontappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8E7D1209B65E5001E8873 /* fontappTests.swift */; };
 		BFD8E7DD209B65E5001E8873 /* fontappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8E7DC209B65E5001E8873 /* fontappUITests.swift */; };
 		BFD8E7EB209CC159001E8873 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8E7EA209CC159001E8873 /* MealTableViewCell.swift */; };
+		BFD8E7ED209F05B3001E8873 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8E7EC209F05B3001E8873 /* MealTableViewController.swift */; };
+		BFD8E7EF209F10A1001E8873 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8E7EE209F10A1001E8873 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BFD8E7DC209B65E5001E8873 /* fontappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fontappUITests.swift; sourceTree = "<group>"; };
 		BFD8E7DE209B65E5001E8873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFD8E7EA209CC159001E8873 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		BFD8E7EC209F05B3001E8873 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		BFD8E7EE209F10A1001E8873 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				BFD8E7BC209B65E4001E8873 /* AppDelegate.swift */,
 				BFD8E7BE209B65E4001E8873 /* ViewController.swift */,
 				BFD8E7C0209B65E4001E8873 /* Main.storyboard */,
+				BFD8E7EE209F10A1001E8873 /* Meal.swift */,
+				BFD8E7EC209F05B3001E8873 /* MealTableViewController.swift */,
 				BFD8E7EA209CC159001E8873 /* MealTableViewCell.swift */,
 				BFD8E7C3209B65E5001E8873 /* Assets.xcassets */,
 				BFD8E7C5209B65E5001E8873 /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD8E7EF209F10A1001E8873 /* Meal.swift in Sources */,
 				BFD8E7BF209B65E4001E8873 /* ViewController.swift in Sources */,
 				BFD8E7BD209B65E4001E8873 /* AppDelegate.swift in Sources */,
+				BFD8E7ED209F05B3001E8873 /* MealTableViewController.swift in Sources */,
 				BFD8E7EB209CC159001E8873 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
