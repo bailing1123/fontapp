@@ -9,8 +9,14 @@
 import UIKit
 
 class Meal: NSObject {
+    var name: String
+    var photo: UIImage?
+    
+    
 
-    init!(name: String, photo: UIImage?) {
-        <#code#>
+    init? (name: String, photo: UIImage?) {
+        
+        self.name = name
+        self.photo = photo
     }
 }
