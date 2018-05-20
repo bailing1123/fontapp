@@ -17,6 +17,7 @@
 		BFD8E7EB209CC159001E8873 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8E7EA209CC159001E8873 /* MealTableViewCell.swift */; };
 		BFD8E7ED209F05B3001E8873 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8E7EC209F05B3001E8873 /* MealTableViewController.swift */; };
 		BFD8E7EF209F10A1001E8873 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8E7EE209F10A1001E8873 /* Meal.swift */; };
+		E4067A3B20B16508003CD448 /* FontTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4067A3A20B16508003CD448 /* FontTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BFD8E7EA209CC159001E8873 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		BFD8E7EC209F05B3001E8873 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		BFD8E7EE209F10A1001E8873 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		E4067A3A20B16508003CD448 /* FontTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				BFD8E7C3209B65E5001E8873 /* Assets.xcassets */,
 				BFD8E7C5209B65E5001E8873 /* LaunchScreen.storyboard */,
 				BFD8E7C8209B65E5001E8873 /* Info.plist */,
+				E4067A3A20B16508003CD448 /* FontTableViewController.swift */,
 			);
 			path = fontapp;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4067A3B20B16508003CD448 /* FontTableViewController.swift in Sources */,
 				BFD8E7EF209F10A1001E8873 /* Meal.swift in Sources */,
 				BFD8E7BF209B65E4001E8873 /* ViewController.swift in Sources */,
 				BFD8E7BD209B65E4001E8873 /* AppDelegate.swift in Sources */,
